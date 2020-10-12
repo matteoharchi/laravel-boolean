@@ -1,0 +1,27 @@
+.container.students{
+    padding: 30px 0;
+    h1,p{
+        color: white;
+    }
+    .cards{
+        width: 100%;
+        flex-wrap: wrap;
+        .card{
+            position: relative;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            p {
+                color: black;
+                margin-bottom: 30px;
+            }
+            .card-linkedin-icon{
+                position: absolute;
+                bottom: 0px;
+                font-size: 35px;
+                color: #0077b5;
+            }
+        }
+        
+    }
+    
+}

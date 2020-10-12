@@ -1,0 +1,23 @@
+.jumbotron{
+    position: relative;
+    height: 600px;
+    background-color: white;
+    font-size: 20px;
+    h1{
+        font-weight: 600;
+    }
+    h4{
+        margin-bottom: 30px;
+    }
+    ul{
+        list-style-type: none;
+        i {
+            color: #0cd977;
+        }
+    }
+    .jumbotron-image img{
+        position: absolute;
+        right: 130px;
+        top: 60px;
+    }
+}

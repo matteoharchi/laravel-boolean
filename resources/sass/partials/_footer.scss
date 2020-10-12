@@ -1,0 +1,38 @@
+footer{
+    background-color: #006cfa;
+    padding: 50px 0;
+    .container.footer{
+        color: white;
+        //parte superiore
+        .footer-head{
+            position: relative;
+            margin-bottom: 20px;
+            .line{
+                width: 950px;
+                height: 0px;
+                border: 2px solid white;
+                position: absolute;
+                top: 30px;
+                left: 250px;
+            }
+        }
+        //parte inferiore
+        .footer-bottom{
+            .child{
+                width: 200px;
+                margin-right: 50px;
+                a{
+                    color: #0bc05d;
+                    text-decoration: underline;
+                }
+            }
+            .social{
+                font-size: 40px;
+            }
+            .address2{
+                text-align: right;
+            }
+        }
+
+    }
+}

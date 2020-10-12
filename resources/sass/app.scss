@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+@import "partials/commons";
+//header
+@import "partials/header";
+//home
+@import "partials/_jumbotron";
+@import "partials/nostri-numeri";
+//pagina studenti
+@import "partials/student-card";
+//pagina contatti
+@import "partials/contatti";
+//footer
+@import "partials/footer";
+
