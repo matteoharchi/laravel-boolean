@@ -16,7 +16,7 @@
         <div class="message">
             <textarea class="form-control" id="textArea" rows="10" placeholder="Scrivi qui"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary" id="send">Primary</button>
+        <button type="submit" class="btn btn-primary" id="send">Invia</button>
     </form>
 
 </div>

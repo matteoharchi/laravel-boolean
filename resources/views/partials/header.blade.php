@@ -8,13 +8,13 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item active ">
+            <li class="nav-item {{url()->current() == route('StaticPage.home') ? 'active' : ''}} ">
                 <a class="nav-link" href="{{route('StaticPage.home')}}">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {{url()->current() == route('Student.studenti') ? 'active' : ''}}">
                 <a class="nav-link" href="{{route('Student.studenti')}}">Studenti</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {{url()->current() == route('StaticPage.contatti') ? 'active' : ''}}">
                 <a class="nav-link" href="{{route('StaticPage.contatti')}}">Contatti</a>
             </li>
         </ul>
